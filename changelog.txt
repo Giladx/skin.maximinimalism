@@ -1,3 +1,26 @@
+[B]1.1.0[/B]
+- Kodi Helix builds only
+- [UPDATED] addonbrowser.xml
+- [UPDATED] DialogAddonInfo.xml
+- [UPDATED] DialogContentSettings.xml
+- [UPDATED] DialogMediaFilter.xml
+- [UPDATED] DialogMediaSource.xml
+- [UPDATED] DialogNetworkSetup.xml
+- [UPDATED] DialogPeripheralSettings.xml
+- [UPDATED] DialogPVRTimerSettings.xml
+- [UPDATED] Font.xml
+- [UPDATED] SmartPlaylistEditor.xml
+- [UPDATED] SmartPlaylistRule.xml
+- [UPDATED] VideoOSDSettings.xml 
+
+- [PENDING] DialogKeyboard.xml
+- [PENDING] LockSettings.xml
+- [PENDING] ProfileSettings.xml
+- [PENDING] PVR changes
+- [PENDING] SettingsCategory.xml
+- [PENDING] VideoFullScreen.xml
+
+
 [B]1.0.6[/B]
 - [MODIFIED] Play / pause icons reversed on music / video OSDs
 - [MODIFIED] Default background on addon info screen if no fanart available

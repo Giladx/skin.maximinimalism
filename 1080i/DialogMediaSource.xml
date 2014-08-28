@@ -139,7 +139,7 @@
                     <textcolor>selected</textcolor>
                     <shadowcolor>-</shadowcolor>
                 </control>
-                <control type="button" id="12">
+                <control type="edit" id="12">
                     <description>Name Button</description>
                     <posx>3-col</posx>
                     <posy>7-row</posy>
