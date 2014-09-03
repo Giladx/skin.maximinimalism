@@ -65,12 +65,6 @@
                     <width>12-col-gutter</width>
                     <align>left</align>
                     <height>54</height>
-                    <font>itemTitle</font>
-                    <textcolor>selected</textcolor>
-                    <focusedcolor>black</focusedcolor>
-                    <texturefocus>colors/selected.png</texturefocus>
-                    <texturenofocus>-</texturenofocus>
-                    <textoffsetx>12</textoffsetx>
 					<ondown>12</ondown>
 					<onup>10</onup>
 					<onright>9011</onright>
@@ -99,13 +93,7 @@
 	                <posy>3-row</posy>
                     <width>12-col-gutter</width>
                     <align>left</align>
-                    <height>54</height>
-                    <font>itemTitle</font>
-                    <textcolor>selected</textcolor>
-                    <focusedcolor>black</focusedcolor>
-                    <texturefocus>colors/selected.png</texturefocus>
-                    <texturenofocus>-</texturenofocus>
-                    <textoffsetx>12</textoffsetx>
+                    <height>54</height>                   
 					<ondown>13</ondown>
 					<onup>12</onup>
 					<onright>9011</onright>
@@ -118,12 +106,6 @@
                     <width>12-col-gutter</width>
                     <align>left</align>
                     <height>54</height>
-                    <font>itemTitle</font>
-                    <textcolor>selected</textcolor>
-                    <focusedcolor>black</focusedcolor>
-                    <texturefocus>colors/selected.png</texturefocus>
-                    <texturenofocus>-</texturenofocus>
-                    <textoffsetx>12</textoffsetx>
 					<ondown>14</ondown>
 					<onup>16</onup>
 					<onright>9011</onright>
@@ -136,12 +118,6 @@
                     <width>12-col-gutter</width>
                     <align>left</align>
                     <height>54</height>
-                    <font>itemTitle</font>
-                    <textcolor>selected</textcolor>
-                    <focusedcolor>black</focusedcolor>
-                    <texturefocus>colors/selected.png</texturefocus>
-                    <texturenofocus>-</texturenofocus>
-                    <textoffsetx>12</textoffsetx>
 					<ondown>15</ondown>
 					<onup>13</onup>
 					<onright>9011</onright>
@@ -154,12 +130,6 @@
                     <width>12-col-gutter</width>
                     <align>left</align>
                     <height>54</height>
-                    <font>itemTitle</font>
-                    <textcolor>selected</textcolor>
-                    <focusedcolor>black</focusedcolor>
-                    <texturefocus>colors/selected.png</texturefocus>
-                    <texturenofocus>-</texturenofocus>
-                    <textoffsetx>12</textoffsetx>
 					<onup>14</onup>
 					<onright>9011</onright>
                 </control> 

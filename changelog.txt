@@ -14,6 +14,7 @@
 - [UPDATED] VideoOSDSettings.xml 
 
 - [PENDING] DialogKeyboard.xml
+
 - [PENDING] LockSettings.xml
 - [PENDING] ProfileSettings.xml
 - [PENDING] PVR changes

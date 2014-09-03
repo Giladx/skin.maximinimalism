@@ -40,7 +40,7 @@
                 <textcolor>unselected</textcolor>
             </control>
         </focusedlayout>
-		<include condition="window.isactive(pvr) + !Skin.String(keepMusicMenuActive)">videoMenu</include>
+		<include condition="[window.isactive(tvchannels) | window.isactive(tvguide) | window.isactive(TVRecordings)] + !Skin.String(keepMusicMenuActive)">videoMenu</include>
 		<include condition="window.isactive(pvr) + Skin.String(keepMusicMenuActive)">musicMenu</include>
 		<include condition="[Window.isactive(videolibrary) | window.isactive(videoplaylist)] + !Skin.String(keepMusicMenuActive)">videoMenu</include>
 		<include condition="[window.isactive(musiclibrary) | window.isactive(musicfiles) | window.isactive(musicplaylist)] | [[Window.isactive(videolibrary) | window.isactive(videoplaylist)] + Skin.String(keepMusicMenuActive)]">musicMenu</include>
@@ -81,21 +81,21 @@
 			<visible>System.GetBool(pvrmanager.enabled)</visible>
 		    <label>31006</label>
 		    <label2></label2>
-		    <onclick>ActivateWindowAndFocus(pvr, 32,0, 9999,1)</onclick>
+		    <onclick>ActivateWindow(TVChannels)</onclick>
 		    <onclick>Skin.SetString(showRecentVideoItems,false)</onclick>
 		</item>
 		<item>
 			<visible>System.GetBool(pvrmanager.enabled)</visible>
 		    <label>31112</label>
 		    <label2></label2>
-		    <onclick>ActivateWindowAndFocus(pvr, 31,0, 10,1)</onclick>
+		    <onclick>ActivateWindow(TVGuide)</onclick>
 		    <onclick>Skin.SetString(showRecentVideoItems,false)</onclick>
 		</item>
 		<item>
-		    <visible>System.GetBool(pvrmanager.enabled) + IntegerGreaterThan(pvr.BackendRecordings,0)</visible>
+		    <visible>System.GetBool(pvrmanager.enabled)</visible>
 		    <label>19163</label>
 		    <label2></label2>
-		    <onclick>ActivateWindowAndFocus(pvr, 34,0, 13,1)</onclick>
+		    <onclick>ActivateWindow(TVRecordings)</onclick>
 		    <onclick>Skin.SetString(showRecentVideoItems,false)</onclick>
 		</item>
 		<item>
