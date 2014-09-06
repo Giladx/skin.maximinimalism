@@ -35,20 +35,12 @@
                     <align>center</align>
 					<font>itemTitleSmall</font>
 					<textcolor>selected</textcolor>
-				</control>
-				<control type="image">
-                    <posx>0</posx>
-                    <posy>-12</posy>
-                    <width>17-col</width>
-                    <height>1-row</height>
-                    <aspectratio>stretch</aspectratio>
-                    <texture>colors/keyselected.png</texture>
-                </control>
+				</control> 
                 <control type="edit" id="312">
                     <description>Edit Text</description>
                     <posx>0</posx>
                     <posy>-12</posy>
-                    <width>17-col-gutter</width>
+                    <width>17-col</width>
                     <align>center</align>
 					<onup>300</onup>
 					<ondown>309</ondown>

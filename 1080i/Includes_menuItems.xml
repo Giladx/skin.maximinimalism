@@ -110,7 +110,7 @@
 			<visible>Library.HasContent(TVShows)</visible>
 		    <label>20343</label>
 		    <label2></label2>
-		    <onclick>activateWindow(Videos,tvshowtitles,return)</onclick>
+		    <onclick>ActivateWindow(Videos,TvShowTitles,return)</onclick>
 		    <onclick>control.setfocus(50)</onclick>
 		    <onclick>Skin.SetString(showRecentVideoItems,false)</onclick>
 		</item>	
@@ -245,7 +245,7 @@
 			<visible>Library.HasContent(Music)</visible>
 		    <label>133</label>
 		    <label2></label2>
-		    <onclick>ReplaceWindow(MusicLibrary,Artists,return)</onclick>
+		    <onclick>ActivateWindow(MusicLibrary,Artists,return)</onclick>
 			<onclick>Control.SetFocus(53)</onclick>
 		    <onclick>Skin.SetString(showRecentMusicItems,false)</onclick>
 		</item>
@@ -253,7 +253,7 @@
 			<visible>Library.HasContent(Music)</visible>
 		    <label>132</label>
 		    <label2></label2>
-		    <onclick>ReplaceWindow(MusicLibrary,Albums,return)</onclick>
+		    <onclick>ActivateWindow(MusicLibrary,Albums,return)</onclick>
 			<onclick>Control.SetFocus(55)</onclick>
 		    <onclick>Skin.SetString(showRecentMusicItems,false)</onclick>
 		</item>

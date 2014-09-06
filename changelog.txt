@@ -1,5 +1,5 @@
 [B]1.1.0[/B]
-- Kodi Helix builds only
+****Kodi Helix builds only****
 - [UPDATED] addonbrowser.xml
 - [UPDATED] DialogAddonInfo.xml
 - [UPDATED] DialogContentSettings.xml
@@ -12,15 +12,16 @@
 - [UPDATED] SmartPlaylistEditor.xml
 - [UPDATED] SmartPlaylistRule.xml
 - [UPDATED] VideoOSDSettings.xml 
-
-- [PENDING] DialogKeyboard.xml
+- [UPDATED] DialogKeyboard.xml
+- [UPDATED] SettingsCategory.xml
+- [UPDATED] VideoFullScreen.xml
 
 - [PENDING] LockSettings.xml
 - [PENDING] ProfileSettings.xml
 - [PENDING] PVR changes
-- [PENDING] SettingsCategory.xml
-- [PENDING] VideoFullScreen.xml
 
+
+- Misc tweaks
 
 [B]1.0.6[/B]
 - [MODIFIED] Play / pause icons reversed on music / video OSDs
